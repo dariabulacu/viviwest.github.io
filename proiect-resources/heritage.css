@@ -35,16 +35,16 @@ body {
   padding-top: 0;
   height: 80vh; 
   background-color: rgb(156, 134, 134);
-  position: relative; /* Ensure the container holds the content inside it */
+  position: relative; 
 }
 
 .heritageimg img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-height: 100%; /* Ensure the image's height doesn't exceed the container's height */
-  max-width: 100%; /* Ensure the image's width doesn't exceed the container's width */
-  object-fit: cover; /* Or use "contain" if you want the image to fit without cropping */
+  max-height: 100%; 
+  max-width: 100%; 
+  object-fit: cover; 
   z-index: 100;
   opacity: 0.8;
 }
